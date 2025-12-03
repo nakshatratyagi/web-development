@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP EASY</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar{
+            background-color: black;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .center-links{
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .center-links a,
+        .right-links a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .right-links{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .welcome-section{
+            padding: 60px 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="logo">SHOP EASY</div>
+
+        <ul class="center-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Deals</a></li>
+        </ul>
+
+        <ul class="right-links">
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+
+    </div>
+
+    <div class="welcome-section">
+        Welcome to ShopEasy — your one-stop destination for shopping!
+    </div>
+
+</body>
+</html>
